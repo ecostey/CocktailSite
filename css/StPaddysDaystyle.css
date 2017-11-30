@@ -1,0 +1,10 @@
+a:link {color: #ff9900;}
+a:visited {color: #ff9900;}
+a:hover {color: #ffffff;}
+a:active {color: #ff9900;}
+div.StPaddysDay {
+	background-color: #008000;
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+   }
