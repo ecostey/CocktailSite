@@ -8,3 +8,33 @@ div.StPaddysDay {
     margin: 20px 0 20px 0;
     padding: 20px;
    }
+/* Creating Tabs by cocktail*/
+  .tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 20%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+#IrishLullaby {background-color:orange;}
+#IrishCocktail {background-color:orange;}
+#EVR {background-color:orange;}
+#BitterIrishman {background-color:orange;}
+#NuttyIrishman {background-color:orange;}
