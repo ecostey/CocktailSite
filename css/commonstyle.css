@@ -20,10 +20,32 @@ body {
     float: left;
     width: 50%;
     padding: 10px;
-    height: 300px;
+    height: 100px;
     display: table-cell;
     vertical-align: middle;
     position: relative;
+}
+
+.column2 {
+     float: left;
+    width: 50%;
+    padding: 10px;
+    height: 100px;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;   
+}
+
+.row {
+    display: table;
+    clear: both;
+    height: 50%;  
+}
+
+.rowfullsize {
+    display: block;
+    clear: both;
+    height: 50%;
 }
 
 
@@ -32,6 +54,7 @@ body {
     content: "";
     display: table;
     clear: both;
+    height: 50%;
 }
 
 .author {
@@ -41,8 +64,5 @@ body {
 }
 
 .RecipeTitle {
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    text-align: center;
 }
