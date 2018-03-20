@@ -10,6 +10,11 @@
     <link rel="stylesheet" type="text/css" href="css/commonstyle.css">
     <link rel="stylesheet" type="text/css" href="css/indexstyle.css">
 </head>
+<style>
+.ImageCarousel {
+    display: none;
+}
+</style>
 
 <body>
     <div id="mySidenav" class="sidenav">
@@ -31,9 +36,14 @@
         </nav>
     </div>
     <h1 class="menu" onmouseover="openNav()">Menu</h1>
-    <div id="main">
-        <p align="center">Picture &amp; title of site will fo here.</p>
-    </div>
+    <h1 align="center">Automatic Slideshow</h1>
+    <img src="img/BloodhoundsOfSomerville.png">
+	<div class="w3-content w3-section" style="max-width:500px">
+  		<img class="ImageCarousel" src="img/bloodhoundsOfSomerville.png" style="width:100%">
+  		<img class="ImageCarousel" src="img/nutty-irishman.jpg" style="width:100%">
+  		<img class="ImageCarousel" src="img/DiaDeLosMuertos.jpg" style="width:100%">
+	</div>
+   
     <script type="text/javascript" src="js/commons.js"></script>
 </body>
 
